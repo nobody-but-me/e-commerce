@@ -9,7 +9,7 @@ function Header() {
 	    </div>
 	    <div className="h-full">
 	        <div className="p-5 w-full flex flex-row justify-center items-center">
-	            <div className="flex bg-gray-300 h-10 w-1/2"> {/* Search bar */}
+	            <div className="flex overflow-hidden bg-gray-300 h-10 md:w-full lg:w-1/2 rounded-sm"> {/* Search bar */}
 	                <input className="w-full p-5" type="text" placeholder="Search for some product..."></input>
 	                <button className="flex flex-col justify-center items-center min-w-10 h-full bg-gray-400 hover:bg-gray-500">
 	                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 stroke-white">
